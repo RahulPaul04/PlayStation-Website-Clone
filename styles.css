@@ -743,6 +743,12 @@
     top:20%;
 }
 
+@media(max-width:768px){
+    .month-descp{
+        left: 0 !important;
+    }
+}
+
 @media(min-width:769px){
     .month-image{
         height: 370px;
@@ -859,6 +865,7 @@
     
     padding-left: 20px;
     padding-right: 20px;
+    flex-grow: 1;
     
 }
 
