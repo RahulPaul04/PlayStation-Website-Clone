@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-white nav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/Playstation-logo.png" alt="" class="img-fluid navbar-logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Games
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PS5
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PS4
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accessories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  News
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Store
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Support
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <button class="btn btn-primary rounded-pill" type="button">Sign In</button>
+            <div class="search">
+                <img src="./images/search.png" alt="" class="img-fluid">
+            </div>
+
+          </div>
+        </div>
+      </nav>
+    <div id="header">
+        
+
+        <input type="radio" name="header-cards" id="img_1" checked>
+        
+        <img id="img-1" src="./images/FINALFANTASY_VII_REBIRTH_DEMO-homepage-hero-desktop-01–en–05feb24.webp" alt="" class="img-fluid large">
+        <img src="./images/FINALFANTASY_VII_REBIRTH_DEMO-homepage-hero-mobile-01–en–05feb24.webp" alt="" class="img-fluid small" id="img-1">
+        <input type="radio" name="header-cards" id="img_2">
+        <img id="img-2" src="./images/helldivers-2-hero-banner-desktop-01-en-20jul23.jpg" alt="" class="img-fluid large">
+        <img src="./images/helldivers-2-hero-banner-mobile-01-en-20jul23.webp" alt="" class="img-fluid small" id="img-2">
+        <input type="radio" name="header-cards" id="img_3">
+        <img id="img-3" src="./images/overwatch2-s09-hero-desktop-01-en-06feb24.webp" alt="" class="img-fluid large">
+        <img src="./images/overwatch2-s09-hero-mobile-01-en-06feb24.webp" alt="" class="img-fluid small" id="img-3">
+        <input type="radio" name="header-cards" id="img_4">
+        <img id="img-4" src="./images/tekken8-hero-banner-desktop-01-en-26jan24.jpg" alt="" class="img-fluid large">
+        <img src="./images/tekken8-hero-banner-mobile-01-en-26jan24.webp" alt="" class="img-fluid small" id="img-4">
+        <input type="radio" name="header-cards" id="img_5">
+        <img id="img-5" class="img-fluid large" src="./images/ultros-hero-banner-desktop-01-en-14feb24.webp" alt="">
+        <img src="./images/ultros-hero-banner-mobile-01-en-14feb24.webp" alt="" class="img-fluid small" id="img-5">
+
+        <div class="header-cards d-flex col-md-10 mx-auto">
+            <label class="col-6 col-md" for="img_1" >
+                <div class="header-card  card-1 ">
+                    <img class="img-fluid" src="./images/final-fantasy-vii-rebirth-demo-keyart-01-en-07feb24.webp" alt="">
+                </div>
+            </label>
+            
+            <label class="col-6 col-md" for="img_2">
+                <div class="header-card  card-2">
+                    <img class="img-fluid" src="./images/helldivers-2-keyart-01-en-20jul23.webp" alt="">
+                </div>
+            </label>
+            
+            <label class="col-6 col-md" for="img_3">
+                <div class="header-card  card-3">
+                    <img class="img-fluid" src="./images/overwatch2-s09-keyart-01-en-06feb24.webp" alt="">
+                </div>
+            </label>
+            
+            <label class="col-6 col-md" for="img_4">
+                <div class="header-card  card-4">
+                    <img class="img-fluid" src="./images/tekken8-keyart-01-en-26jan24.webp" alt="">
+                </div>
+            </label>
+            
+            <label class="col-6 col-md" for="img_5">
+                <div class="header-card  card-5">
+                    <img class="img-fluid" src="./images/ultros-keyart-01-en-14feb24.webp" alt="">
+                </div>
+            </label>
+            
+        </div>
+        
+        
+        <div class="header-image-container">
+            <img src="./images/FINALFANTASY_VII_REBIRTH_DEMO-homepage-hero-desktop-01–en–05feb24.webp" alt="" class="img-fluid large" id="img-default">
+            <img src="./images/FINALFANTASY_VII_REBIRTH_DEMO-homepage-hero-mobile-01–en–05feb24.webp" alt="" class="img-fluid small" id="img-default">
+
+            <div class="descp col-md-5" id="descp-1">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/final-fantasy-vii-rebirth-logo-01-en-05feb24?$1200px--t$" alt="" class="col-4">
+                <h2>The Unknown Journey Continues</h2>
+                <p>Play as Cloud or Sephiroth in the Final Fantasy VII Rebirth demo, out now on PS5. Unveil the opening chapter and choose your adventure.</p>
+                <button type="button" class="btn btn-primary rounded-pill col-3 px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="descp col-md-5" id="descp-2">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/helldivers-2-logo-01-en-16may23?$1200px--t$" alt="" class="col-4">
+                <h2 class="text-white">The Galaxy's Last Line Of Defence</h2>
+                <p class="text-white">Take up the mantle of liberty, join the Helldivers and fight for freedom across a hostile galaxy, in this new multiplayer co-op shooter for PS5 & PC</p>
+                <button type="button" class="btn btn-light rounded-pill  col-3 px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="descp col-md-5" id="descp-3">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/overwatch2-s09-logo-02-en-06fev24?$1200px--t$" alt="" class="col-4">
+                <h2>Claim Your Place</h2>
+                <p>Season 9 heralds a fresh start, featuring reworked competitive play and a new co-op event mode, Cosmic Crisis. Play now on PS4 & PS5.</p>
+                <button type="button" class="btn btn-light rounded-pill col-3 px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="descp col-md-5" id="descp-4">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/tekken-8-logo-01-en-21sep22?$1200px--t$" alt="" class="col-4">
+                <h2 class="text-white">Fist Meets Fate</h2>
+                <p class="text-white">The Mishima saga continues. Experience the epic new story featuring dozens of extraordinary fighters, out now on PS5..</p>
+                <button type="button" class="btn btn-light rounded-pill col-3 px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="descp col-md-5" id="descp-5">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ultros-logo-01-en-14feb24?$1200px--t$" alt="" class="col-4">
+                <h2 class="text-white">Sow Death. Reap Life</h2>
+                <p class="text-white" >From the creative vision of El Huervo, a psychedelic sci-fi mystery unfolds as you explore the depths of a cosmic tomb, out now on PS5</p>
+                <button type="button" class="btn btn-light rounded-pill col-3 px-3 descp-btn">Find Out More</button>
+            </div>
+            
+        
+        </div>
+        
+        <div class="background col-md-2 col-8 mt-5">
+            <img class="img-fluid" src="./images/final-fantasy-vii-rebirth-demo-keyart-01-en-07feb24.webp" alt="">
+        </div>
+
+        
+        
+    </div>
+
+    <!-- ---------------------------------------------------------- -->
+
+    <div id="products" class="mt-5 pt-5 pb-5">
+        
+
+        <input type="radio" name="product-cards" id="prod_1" checked>
+
+        <div  class="d-md-flex background-prod">
+            <div class="descp col-md-4 " id="prod-descp-5">
+                <h1>Introducing the PS5 console and accessories</h1>           
+                <h2 class="text-primary">DualSense Edge™ Wireless Controller</h2>
+                <p class="text-black" >Get an edge in gameplay with remappable buttons, tuneable triggers and sticks, changeable stick caps, back buttons, and more.</p>
+                <button type="button" class="btn btn-primary  px-1 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-edge-featured-hardware-image-block-01-en-11aug23?$1600px$" alt=""></div>
+        </div>
+        
+        <div id="prod-1" class="d-md-flex prod">
+            <div class="descp col-md-4 background-descp">
+                <h1>Introducing the PS5 console and accessories</h1>
+                <h2>PlayStation 5 Console</h2>
+                <p class="text-black">Experience an all-new generation of incredible PlayStation games.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-featured-hardware-image-block-01-en-11aug23?$1600px$" alt="" class="img-fluid"></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_2">
+        <div class="d-md-flex prod" id="prod-2" >
+            <div class="descp col-md-4" id="prod-descp-2">
+                <h1>Introducing the PS5 console and accessories</h1>
+                <h2 class="text-primary">DualSense™ Wireless Controller</h2>
+                <p class="text-black">Immerse yourself in the gaming experience with a controller the supports responsive haptic feedback and dynamic trigger effects.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-range-stacked-image-block-01-en-11feb22?$1600px$" alt="" class="img-fluid"></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_3">
+        <div class="d-md-flex prod" id="prod-3">
+            <div class="descp col-md-4" id="prod-descp-3">
+                <h1>Introducing the PS5 console and accessories</h1>
+                <h2>PULSE Elite™ Wireless Headset</h2>
+                <p class="text-black">Enjoy lifelike gaming audio in a comfortable headset design equipped with a retractable microphone and built-in long-life battery</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  src="https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Elite-headset-thumbnail-01-en-08sep23?$1600px$" alt="" class="img-fluid"></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_4">
+        <div class="d-md-flex prod" id="prod-4">
+            <div class="descp col-md-4" id="prod-descp-4">
+                <h1>Introducing the PS5 console and accessories</h1>             
+                <h2 class="text-primary">PULSE Explore™ Wireless Earbuds</h2>
+                <p class="text-black">Enjoy lifelike gaming audio wherever play takes you with a portable design equipped with hidden microphones and a companion charging case.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  src="https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Explore-earbuds-image-block-01-en-08sep23?$1600px$" alt="" class="img-fluid"></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_5">
+        <div class="d-md-flex prod " id="prod-5">
+            <div class="descp col-md-4" id="prod-descp-5">
+                <h1>Introducing the PS5 console and accessories</h1>           
+                <h2 class="text-primary">DualSense Edge™ Wireless Controller</h2>
+                <p class="text-black" >Get an edge in gameplay with remappable buttons, tuneable triggers and sticks, changeable stick caps, back buttons, and more.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-edge-featured-hardware-image-block-01-en-11aug23?$1600px$" alt=""></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_6">
+        <div class="d-md-flex prod " id="prod-6">
+            <div class="descp col-md-4" id="prod-descp-6">
+                <h1>Introducing the PS5 console and accessories</h1>           
+                <h2 class="text-primary">Access™ Controller</h2>
+                <p class="text-black" >A highly customisable PlayStation®5 controller kit designed to make gaming more accessible.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/access-controller-featured-hardware-image-block-01-en-12oct23?$1600px$" alt=""></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_7">
+        <div class="d-md-flex prod " id="prod-7">
+            <div class="descp col-md-4" id="prod-descp-7">
+                <h1>Introducing the PS5 console and accessories</h1>           
+                <h2 class="text-primary">PS5 Console Covers</h2>
+                <p class="text-black" >Personalise your PlayStation 5 or PlayStation 5 Digital Edition console with a vibrant array of new colour options.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-cover-range-image-block-01-en-16feb22?$1600px$" alt=""></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_8">
+        <div class="d-md-flex prod " id="prod-8">
+            <div class="descp col-md-4" id="prod-descp-8">
+                <h1>Introducing the PS5 console and accessories</h1>           
+                <h2 class="text-primary">Media Remote</h2>
+                <p class="text-black" >Conveniently control movies, streaming services and more on your PS5 console with an intuitive layout.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/media-remote-featured-hardware-image-block-01-en-11aug23?$1600px$" alt=""></div>
+        </div>
+        <input type="radio" name="product-cards" id="prod_9">
+        <div class="d-md-flex prod " id="prod-9">
+            <div class="descp col-md-4" id="prod-descp-9">
+                <h1>Introducing the PS5 console and accessories</h1>           
+                <h2 class="text-primary">HD Camera</h2>
+                <p class="text-black" >Add yourself to your gameplay videos and broadcasts with smooth, sharp, full-HD capture.</p>
+                <button type="button" class="btn btn-primary rounded-pill  px-3 descp-btn">Find Out More</button>
+            </div>
+            <div class="col-md-1"></div>
+            <div><img  class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/hd-camera-featured-hardware-image-block-01-en-11aug23?$1600px$" alt=""></div>
+        </div>
+
+
+        <div class="product-cards d-flex col-md-12 mx-auto px-2 pt-2 pb-2">
+            <label for="prod_1">
+                <div class="product-card card-1">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-featured-hardware-image-block-01-en-11aug23?$1200px$" alt="">
+                </div>
+                <p>PS5 Console</p>
+            </label>
+            
+            <label for="prod_2">
+                <div class="product-card card-2">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-range-stacked-image-block-01-en-11feb22?$1200px$" alt="">
+                </div>
+                <p>DualSense™ Wireless Controller</p>
+            </label>
+            
+            <label for="prod_3">
+                <div class="product-card card-3">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Elite-headset-thumbnail-01-en-08sep23?$1200px$" alt="">
+                </div>
+                <p>PULSE Elite™ Wireless Headset</p>
+            </label>
+            
+            <label for="prod_4">
+                <div class="product-card card-4">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/PULSE-Explore-earbuds-image-block-01-en-08sep23?$1200px$" alt="">
+                </div>
+                <p>PULSE Explore™ Wireless Earbuds</p>
+            </label>
+            
+            <label for="prod_5">
+                <div class="product-card card-5">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/dualsense-edge-featured-hardware-image-block-01-en-11aug23?$1200px$" alt="">
+                </div>
+                <p>Dualsense Edge</p>
+            </label>
+            <label for="prod_6">
+                <div class="product-card card-6">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/access-controller-featured-hardware-image-block-01-en-12oct23?$800px$" alt="">
+                </div>
+                <p>Access™ Controller</p>
+            </label>
+            <label for="prod_7">
+                <div class="product-card card-7">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/ps5-console-cover-range-image-block-01-en-16feb22?$800px$" alt="">
+                </div>
+                <p>PS5 Console Covers</p>
+            </label>
+            <label for="prod_8">
+                <div class="product-card card-8">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/media-remote-featured-hardware-image-block-01-en-11aug23?$800px$" alt="">
+                </div>
+                <p>Media Remote</p>
+            </label>
+            <label for="prod_9">
+                <div class="product-card card-9">
+                    <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/hd-camera-featured-hardware-image-block-01-en-11aug23?$800px$" alt="">
+                </div>
+                <p>HD Camera</p>
+            </label>
+            
+            
+        </div>
+        
+    </div>
+
+    <!-- ------------------------------------------------------------------------------- -->
+
+    <div id="games">
+        <h1 class="text-center text-white pt-5 pb-5 mt-5mb-5">Great PS4 & PS5 games out now or coming soon</h1>
+        <input type="radio" name="releases" id="new" checked>
+        <input type="radio" name="releases" id="soon" >
+        <div class="choose d-flex mx-auto">
+            
+            <label for="new"><div class="new">New Releases</div></label>
+            
+            <label for="soon"><div class="soon">Coming Soon</div></label>
+        </div>
+
+        <div class="new-games ">
+            <div class="game-row mt-5 px-5">
+                <div class="game  one">
+                    <a href="">
+                        <img src="./images/New/hogwarts-packshot-thumb-01-en-12jan21.webp" alt="" class="img-fluid game-img">
+              
+                    </a>   
+                    <p>Hogwarts Legacy</p>   
+                </div>
+                <div class="game  two">
+                    <a href="">
+                        <img src="./images/New/marvels-spider-man-2-thumbnail-02-en-01oct21.webp" alt="" class="img-fluid game-img">
+       
+                    </a>
+                    <p>Marvel's Spider-Man 2 </p>            
+                </div>
+                <div class="game  three">
+                    <a href="">
+                        <img src="./images/New/tekken-8-store-artwork-01-en-14jun23.webp" alt="" class="img-fluid game-img">
+               
+                    </a> 
+                    <p>Tekken 8</p>
+                </div>
+                <div class="game  four">
+                    <a href="">
+                        <img src="./images/New/ea-sports-fc-store-art-01-en-27sept23.webp" alt="" class="img-fluid game-img">
+              
+                    </a>  
+                    <p>EA SPORTS™ FC 24</p>
+                </div>
+                <div class="game  five">
+                    <a href="">
+                        <img src="./images/New/suicide-squad-KtJL-storeart-01-en-9dec21.webp" alt="" class="img-fluid game-img">
+           
+                    </a>   
+                    <p>Suicide Squad Kills The Justice League</p>      
+                </div>
+                <div class="game  six">
+                    <a href="">
+                        <img src="./images/New/helldivers-2-keyart-01-en-16may23.webp" alt="" class="img-fluid game-img">
+                  
+                    </a>  
+                    <p>Helldivers™ 2</p>
+                </div>
+            </div>
+            <div class="game-row  mt-4 px-5">
+                <div class="game  seven">
+                    <a href="">
+                        <img src="./images/New/god-of-war-ragnarok-listing-thumb-01-09sep21$en.webp" alt="" class="img-fluid game-img">
+    
+                    </a>    
+                    <p>God of War Ragnarok</p>            
+                </div>
+                <div class="game  eight">
+                    <a href="">
+                        <img src="./images/New/the-last-of-us-part-i-keyart-01-en-18may22.webp" alt="" class="img-fluid game-img">
+         
+                    </a>   
+                    <p>The Last of Us™ Part </p>        
+                </div>
+                <div class="game  nine">
+                    <a href="">
+                        <img src="./images/New/CXwcR0z8bOWFWrgRLpj9PfsI.avif" alt="" class="img-fluid game-img">
+                    </a>
+                    <p>Skull and Bones™ </p>
+                </div>
+    
+                                    
+                    <div class="game  ten">
+                    <a href="">
+                        <img src="./images/New/final-fantasy-xvi-pack-01-en-15jun23.webp" alt="" class="img-fluid game-img">
+               
+                    </a>  
+                    <p>Final Fantasy XV</p>  
+                 </div>
+                <div class="game  eleven">
+                    <a href=""><img src="./images/New/call-of-duty-modern-warfare-3-pack-01-en-22aug23.webp" alt="" class="img-fluid game-img"></a>
+                    <p>Call of Duty: Moder Warfare</p>
+                </div>
+                <div class="game  twelve">
+                    <a href="">
+                        <img src="./images/New/lego-fortnite-pack-01-en-01dec23.webp" alt="" class="img-fluid game-img">
+                   
+                    </a> 
+                    <p>LEGO Fortnite</p>
+                </div>
+            </div>
+        </div>
+        <div class="soon-games  pb-5">
+            <div class="game-row  mt-5 px-5">
+                <div class="game  one">
+                    <a href="">
+                        <img src="./images/Soon/pacific-drive-keyart-01-en-28nov22.webp" alt="" class="img-fluid game-img">
+              
+                    </a>  
+                    <p>Pacific Drive</p>   
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/final-fantasy-vii-rebirth-pack-01-en-30oct23.webp" alt="" class="img-fluid game-img">
+       
+                    </a>   
+                    <p>Final Fantasy Vll Rebirth</p>          
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/the-plucky-squire-store-artwork-02-en-18jan23.webp" alt="" class="img-fluid game-img">
+               
+                    </a>   
+                    <p>The Plucky Square</p>  
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/rise-of-the-ronin-listing-thumb-en-28mar23.webp" alt="" class="img-fluid game-img">
+              
+                    </a> 
+                    <p>Rise of Ronin</p>     
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/tales-of-kenzera-packshot-01-en-01dec23.webp" alt="" class="img-fluid game-img">
+           
+                    </a>  
+                    <p>Tales of Kenzera™: ZAU</p>       
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/silent-hill-2-pack-01-en-14nov22.webp" alt="" class="img-fluid game-img">
+                  
+                    </a> 
+                    <p>Silent Hill 2</p> 
+                </div>
+            </div>
+            <div class="game-row  mt-4 px-5">
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/xdefiant-store-artwork-01-en-29jun23.webp" alt="" class="img-fluid game-img">
+    
+                    </a>  
+                    <p>XDefient</p>              
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/stellar-blade-ps5-20april23en.webp" alt="" class="img-fluid game-img">
+         
+                    </a>  
+                    <p>Stellar Blade</p>         
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/alone-in-the-dark-store-artwork-01-en-19oct22.webp" alt="" class="img-fluid game-img"></a> 
+                        <p>Alone in the Dark</p>
+                    
+                    </div>
+    
+                                   
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/death-stranding-2-packshot-01-en-22jan24.webp" alt="" class="img-fluid game-img">
+               
+                    </a> 
+                    <p>Death Stranding 2: On the Beach</p>   
+                 </div>
+                <div class="game ">
+                    <a href=""><img src="./images/Soon/dragons-dogma-2-store-artwork-03-en-18jan23.webp" alt="" class="img-fluid game-img">
+                    </a>
+                    <p>Dragon's Dogma 2</p>
+                </div>
+                <div class="game ">
+                    <a href="">
+                        <img src="./images/Soon/until-dawn-packshot-01-en-22jan24.webp" alt="" class="img-fluid game-img">
+                   
+                    </a> 
+                    <p>Until Dawn</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------------------------------------------- -->
+
+    <div id="plus">
+        <div class="plus-heading d-flex ">
+            <div class="logo">
+                <img src="./images/plus.png" alt="">
+            </div>
+            <h3>PlayStation.Plus</h3>
+        </div>
+        <h1 class="text-center heading mt-3"> Discover Playstation Plus</h1>
+        <p class="plus-text text-center mx-5 mt-4 px-3">Play hundreds of incredible PS5, PS4 and classic PlayStation   games, and discover epic adventures, unique indies, family favourites, and everything in between.
+        </p>
+        <div class="plus-cards d-flex">
+            <div class="col-9 card-plus">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-season-of-play-image-block-desktop-15nov24?$4000px$" alt="" class="img-fluid large">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-season-of-play-image-block-mobile-15nov24?$800px$" alt="" class="img-fluid small">
+                <div class="plus-descp">
+                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/season-of-play-logo-01-16nov23$en?$1200px--t$" alt="" class="img-fluid">
+                    
+                    <h3 class="mt-3">PlayStation Plus Season of Play</h3>
+                    <p>Join us for a full month of new PlayStation Plus content, a competition, discounts and more activities</p>
+                </div>
+                
+            </div>
+            <div class="col-9 card-plus">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-premium-image-block-desktop-01-en-13dec23?$4000px$" alt="" class="img-fluid large">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-premium-image-block-mobile-01-en-13dec23?$800px$" alt="" class="img-fluid small">
+                <div class="plus-descp">
+                    <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-premium-plan-badge-01-03nov22$en-in?$1200px--t$" alt="" class="img-fluid">
+                    
+                    <h3 class="mt-3">Playstation Plus Deluxe</h3>
+                    <p>Enjoy all the PlayStation Plus benefits from the Extra and Essential plans, plus exclusive benefits like game trials, cloud streaming, and the Classics Catalogue.</p>
+                </div>
+            </div>
+            <div class="col-9 card-plus">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-extra-image-block-desktop-01-en-14dec23$en?$4000px$" alt="" class="img-fluid large">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/ps-plus-extra-image-block-mobile-01-en-14dec23$en?$800px$" alt="" class="img-fluid small">
+                <div class="plus-descp">
+                    <img src="https://www.playstation.com/content/dam/global_pdc/en/services/ps-plus/ps-plus-rebrand-(spartacus)/logos-and-icons/plan-badges/ps-plus-extra-plan-badge-01-12may22$en.svg?$1200px$" alt="" class="img-fluid">
+                    <h3 class="mt-3">Playstation Plus Extra</h3>
+                    <p>Download and play hundreds of PS5 and PS4 games from the Game Catalogue, on top of all benefits from PlayStation Plus Essential.</p>
+                </div>
+            </div>
+            <div class="col-9 card-plus">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/dec-ps-plus-essential-image-block-desktop-01-en-29nov23?$4000px$" alt="" class="img-fluid large">
+                <img src="https://gmedia.playstation.com/is/image/SIEPDC/dec-ps-plus-essential-image-block-mobile-01-en-29nov23?$800px$" alt="" class="">img-fluid.small
+                <div class="plus-descp">
+                    <img src="https://www.playstation.com/content/dam/global_pdc/en/services/ps-plus/ps-plus-rebrand-(spartacus)/logos-and-icons/plan-badges/ps-plus-esstential-plan-badge-01-12may22$en.svg?$1200px$" alt="" class="img-fluid">
+                    <h3 class="mt-3">Playstation Plus Essential</h3>
+                    <p>New games to play each month, online multiplayer, exclusive PS Store discounts and more, available with all three PlayStation Plus membership plans.</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-5 mt-5 pb-5 mb-5"><button type="button" class="btn btn-primary rounded-pill  px-3 discover-btn mx-auto">Discover Playstation Plus</button></div>
+
+    </div>
+
+    <div id="month" >
+        <div class="month-image">
+            <img class="img-fluid large" src="https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-feb-homepage-background-desktop-01-en-16jan24?$4000px$" alt="">
+            <img src="https://gmedia.playstation.com/is/image/SIEPDC/this-month-on-playstation-feb-homepage-background-mobile-01-en-16jan24?$800px$" alt="" class="img-fluid small">
+            <div class="month-descp col-md-4 img-descp">
+                <h2 class="text-white text-center text-md-start">THIS MONTH 
+                    ON PLAYSTATION
+                </h2>
+                <p class="text-center text-md-start">Check out this month's biggest releases along with dedicated features, guides and more.</p>
+                <div class="text-center text-md-start"><button type="button" class="btn btn-light rounded-pill px-3 month-btn mx-auto">Find Out More</button></div>
+
+                
+            </div>
+            
+        </div>
+        <div class="month-body d-md-flex px-md-5 pb-4">
+            <div class="month-cards mx-auto col-10 col-md">
+                <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/great-games-2024-keyart-01-13dec23$en?$800px$" alt="">
+                
+                <h4 class="text-white mt-2 text-center">The best new and upcoming PS5 games of 2024</h4>
+            </div>
+            <div class="month-cards mx-auto col-10 col-md">
+                <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/best-mmo-games-keyart-01-en-08jan24?$800px$" alt="">
+                <h4 class="text-white mt-2 text-center">PlayStation 5's most popular MMOs</h4>
+            </div>
+            <div class="month-cards mx-auto col-10 col-md">
+                <img class="img-fluid" src="https://gmedia.playstation.com/is/image/SIEPDC/best-short-games-Keyart-01-en-04dec23$$en?$800px$" alt="">
+                <h4 class="text-white mt-2 text-center">Bitesize games for busy players</h4>
+            </div>
+        </div>
+        
+    </div>
+<!-- ----------------------------------------------------------------------------------- -->
+    <div id="blog">
+        <h1 class="text-center mb-5 pt-5 pb-5 mt-5">The latest News From Playstation Blog</h1>
+        <div class="blog-body d-flex px-3">
+            
+            <div class="blog-cards col-10 col-md-5 col-lg-4">
+                <div class="header-blog">
+                    <img src="https://blog.playstation.com/tachyon/2024/02/7af41a2d68f944e994fc0ab2158d6e6f088a3827-scaled.jpeg?resize=1088,612&crop_strategy=smart" alt="" class="img-fluid">
+                    <h4>Marvel’s Spider-Man 2 update adds New Game Plus and new suits on March 7</h4>
+                    <p>We cannot explain to you how grateful we have been for everyone who has picked up Marvel’s Spider-Man 2 over the holiday season. Everyone here at Insomniac Games is proud of the game, and we’re very excited to share details with you about the major title update that will hit your PS5 console on March […]
+                    </p>
+                </div>
+                <div class="footer">
+                    <div class="avatar">
+                        <img src="https://blog.playstation.com/tachyon/2020/05/unnamed-file-779.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="footer-descp">
+                        <p>James Stevenson</p>
+                        <p>Community Director,Insomniac Games</p>
+                        <p>Feb 21,2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-cards col-10 col-md-5 col-lg-4">
+                <div class="header-blog">
+                    <img src="https://blog.playstation.com/tachyon/2024/02/2b9915c3a279e62d4ea9c4d1d42db125f40a6cce.jpeg?resize=1088,612&crop_strategy=smart" alt="" class="img-fluid" >
+                    <h4>Star Wars: Battlefront Classic Collection PS4 & PS5 features revealed</h4>
+                    <p>
+                        Aspyr is proud to announce, in celebration of the 20th anniversary of the beloved Star Wars Battlefront series, PlayStation 4 and PlayStation 5 will soon be able to play the classic Star Wars Battlefront games online and offline in a complete collection. On March 14, PlayStation players can get back online and fight in iconic […]
+                    </p>
+                </div>
+                <div class="footer">
+                    <div class="avatar">
+                        <img src="https://blog.playstation.com/tachyon/2024/01/986ff1a8ab3878ee1771b8708226f6943b60484b.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="footer-descp">
+                        <p>Chris Bashaar</p>
+                        <p>Director of Product,Aspyr</p>
+                        <p>Feb 21,2024</p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="blog-cards col-10 col-md-5 col-lg-4 ">
+                <div class="header-blog">
+                    <img src="https://blog.playstation.com/tachyon/2024/02/97880ea296219e257faef9eb4bb7c2b8bf5ab3ce.jpeg?resize=1088,612&crop_strategy=smart" alt="" class="img-fluid">
+                    <h4>Arranger: A Role-Puzzling Adventure revealed for PS5</h4>
+                    <p>                                    Hello! Nick Suttner here. You may have seen my name on PlayStation Blog before in various guises (most recently, as the writer behind Carto), but I’m super excited to be coming to you today as co-founder of the small studio Furniture & Mattress, to reveal our debut PS5 game Arranger: A Role-Puzzling Adventure. What the […]
+                    </p>
+    
+                </div>
+                <div class="footer">
+                    <div class="avatar">
+                        <img src="https://blog.playstation.com/tachyon/2024/02/b89af768ab976e2e451c66a9a19f69d89300656f.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="footer-descp">
+                        <p>Nick Suttner</p>
+                        <p>Co-Founder, Furniture & Mattress</p>
+                        <p>Feb 21,2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-cards col-10 col-md-5 col-lg-4">
+                <div class="header-blog">
+                    <img src="https://blog.playstation.com/tachyon/2024/02/5d5d1b851d64f31a3ef78062a58ba19f17df45e3.jpeg?resize=1088,612&crop_strategy=smart" alt="" class="img-fluid">
+                    <h4>Pulse Elite wireless headset launches starting today: the starter’s guide to PlayStation’s latest line of innovative audio products</h4>
+                    <p>
+                        Launching today, our latest wireless headset, Pulse Elite, brings crisp, immersive audio to the gaming experience on the PS5 console; to PlayStation Link supported devices including PS5, PC, Mac, and PlayStation Portal remote player; and to Bluetooth compatible devices such as smartphones and tablets. Pulse Elite follows the launch of our first wireless earbuds, Pulse […]
+                    </p>
+                </div>
+                <div class="footer">
+                    <div class="avatar">
+                        <img src="https://blog.playstation.com/tachyon/2024/02/316fd9a9053ce6f8f84aafac34b4b90069a67967.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="footer-descp">
+                        <p>Edwin Foo</p>
+                        <p>Vice President, Product Development, SIE</p>
+                        <p>Feb 21,2024</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-cards col-10 col-md-5 col-lg-4">
+                <div class="header-blog">
+                    <img src="https://blog.playstation.com/tachyon/2024/02/f1ace42d936efef89c8cd4556fad5efb2741da75-scaled.jpeg?resize=1088,612&crop_strategy=smart" alt="" class="img-fluid">
+                    <h4>How Final Fantasy VII Rebirth harnesses immersive PS5 technology</h4>
+                    <p>
+                        Your adventure beyond Midgar begins in just over a week when Final Fantasy VII Rebirth launches on PS5 February 29. You may have taken your first steps into that wider world already, thanks to the recent demo, or marveled at that expanse via the State of Play dedicated to the game. And what sights there […]
+                    </p>
+                </div>
+                <div class="footer">
+                    <div class="avatar">
+                        <img src="https://blog.playstation.com/tachyon/2020/05/unnamed-file-753.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="footer-descp">
+                        <p>Gillen McAllister (he/him)</p>
+                        <p>Manager, Content Communications, Sony Interactive</p>
+                        <p>Feb 21,2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer" class="mt-5 mb-0 ">
+        <div class="footer-logo pt-3 mb-3 ms-2">
+            <img src="./images/logo-text.png" alt="" class="img-fluid">
+        </div>
+        
+        <div class="bg-body-white white-line mb-2"></div>
+        <div class="footer-body pt-5 mb-5">
+            <div class="d-lg-flex footer-contents">
+                <div class="d-md-flex footer-contents-2">
+                    <div class="pt-md-3">
+                        <p class="footer-heading">About</p>
+                        <p>About SIE</p>
+                        <p>Carrers</p>
+                        <p>PlayStation Studios</p>
+                        <p>PlayStation Productions</p>
+                        <p>Coporate</p>
+                    </div>
+                    <div class="pt-3">
+                        <p class="footer-heading">Products</p>
+                        <p>PS5</p>
+                        <p>PS4</p>
+                        <p>PS VR2</p>
+                        <p>PS PLUS</p>
+                        <p>Accessories</p>
+                        <p>Games</p>
+                    </div>
+                    <div class="pt-3">
+                        <p class="footer-heading">Values</p>
+                        <p>Environment</p>
+                        <p>Accessibility</p>
+                        <p>Online Safety</p>
+                        <p>Diversity,equity & inclusion</p>
+                    </div>
+                </div>
+                <div class="d-md-flex footer-contents-2">
+                    <div class="pt-3">
+                        <p class="footer-heading">Support</p>
+                        <p>Support Hub</p>
+                        <p>Playstation Safety</p>
+                        <p>PSN Status</p>
+                        <p>Playstation Repairs</p>
+                        <p>Password Reset</p>
+                    </div>
+                    <div class="pt-3">
+                        <p class="footer-heading">Resources</p>
+                        <p>PSN terms of service</p>
+                        <p>PS Store cancellation policy</p>
+                        <p>Age ratings</p>
+                        <p>Health warning</p>
+                        <p>Devolopers</p>
+                        <p>Glossary</p>
+                    </div>
+                    <div class="pt-3">
+                        <p class="footer-heading">Connect</p>
+                        <div class="icons"></div>
+                        <p>IOS app</p>
+                        <p>Android App</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-body-white white-line mb-2"></div>
+        <div class="sie-logo">
+            <img src="./images/SIE-logo.png" alt="" class="img-fluid">
+        </div>
+        <div class="sie-info">
+            <p class="px-3">© 2024 Sony Interactive Entertainment Europe Limited (SIEE)</p>
+            <p class="px-3">All content, games titles, trade names and/or trade dress, trademarks, artwork and associated imagery are trademarks and/or copyright material of their respective owners. All rights reserved. <a href="">More info</a></p>
+        </div>
+        <div class="bg-body-white white-line mb-2"></div>
+        <div class="legal d-md-flex px-2 mb-2">
+            <div class="logo col-md-2">
+                <p><img src="./images/world-logo-2.png" alt="">  India  ></p>
+            </div>
+            <div class="legal-info ">
+                <p>Legal | Privacy Policy | Website Terms of Use | Site Map | Cookies Policy | Software Usage Terms</p>
+            </div>
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>
