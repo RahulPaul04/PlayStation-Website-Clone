@@ -184,7 +184,7 @@
     background-color: #0f0f0f;
 }
 #img_3:checked~.header-image-container .background-gradient{
-    background-color: #92fbc9;
+    background-color: rgb(146,251,201,0.75);
 }
 #img_4:checked~.header-image-container .background-gradient{
     background-color: #0f0f0f;
@@ -359,13 +359,13 @@
     transition-duration: 1s;
 }
 
-.card-7{
-    height: 115px;
-}
+
+
 .card-7>img{
     height: 100%;
     object-fit: cover;
     width: 100%;
+    aspect-ratio: 194/109;
 }
 
 .product-card+p{
